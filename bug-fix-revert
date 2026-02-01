@@ -1,0 +1,22 @@
+curl -X GET https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls
+
+[
+  {
+    "id": 987654321,
+    "number": 1,
+    "state": "closed",
+    "title": "Bug fix typo",
+    "head": {
+      "label": "poornachandran2006:bug-fix-typo",
+      "repo": {
+        "full_name": "poornachandran2006/mcino-Introduction-to-Git-and-GitHub"
+      }
+    },
+    "base": {
+      "label": "ibm-developer-skills-network:main",
+      "repo": {
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+      }
+    }
+  }
+]
